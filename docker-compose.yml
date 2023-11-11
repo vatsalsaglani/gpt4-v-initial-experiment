@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  server:
+    build: ./server
+    ports:
+      - 5010:5010
+    environment:
+      - OPENAI_API_KEY=your-openai-api-key
+
+  app:
+    build: ./ui
+    ports:
+      - 3232:3000

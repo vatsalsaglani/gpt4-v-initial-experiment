@@ -1,0 +1,7 @@
+.env
+ui/node_modules/
+*/*/*.mp3
+*/.mp3
+*/.env
+server/*/__pycache__
+server/__pycache__
